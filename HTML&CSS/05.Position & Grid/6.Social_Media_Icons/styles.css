@@ -1,0 +1,19 @@
+@import url("https://use.fontawesome.com/releases/v5.10.0/css/all.css");
+
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    border-radius: 50%;
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 12px;
+}
+
+ul li a:hover{
+    color: blue;
+}

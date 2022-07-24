@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: rgb(238, 238, 238);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    max-width: 65vw;
+    min-height: 350px;
+}
+
+.container article{
+    margin: 10px;
+    flex-shrink: 7;
+}
+
+.container article:nth-child(2){
+    flex-shrink: 2;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 1px 1px 13px -1px black;
+    object-fit: cover;
+}

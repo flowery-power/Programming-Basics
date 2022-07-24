@@ -1,0 +1,21 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+    flex-flow: column;
+}
+
+span{
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 4px;
+}

@@ -1,0 +1,38 @@
+@import url("https://use.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.viewport{
+    background-color: lightcoral;
+}
+
+
+
+.card{
+    display: block;
+    text-align: center;
+}
+
+.first{
+    background-color: rgb(27, 197, 189);
+    padding: 60px 60px;
+}
+
+.second{
+    background-color: rgb(245, 55, 134);
+    padding: 60px 60px;
+}
+
+img{
+    width: 30%;
+}
+
+i{
+    position: relative;
+    right: 60px;
+    color: lightyellow;
+    bottom: 20px;
+}

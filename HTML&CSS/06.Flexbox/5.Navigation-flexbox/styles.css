@@ -1,0 +1,33 @@
+body{
+    padding: 40px 80px;
+}
+
+header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header h1{
+    text-transform: uppercase;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row;
+    text-decoration: none;
+}
+
+
+.nav li{
+    list-style: none;
+}
+
+
+.nav li a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(0, 153, 0);
+}
+

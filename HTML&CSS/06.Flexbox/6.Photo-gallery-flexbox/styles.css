@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: #eee;
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    margin: 120px 223px;
+}
+
+.gallery li {
+    border: 8px solid black;
+    background: white;
+    padding: 22px;
+    margin: 15px 0;
+    box-shadow: 1px 1px 13px -1px black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
